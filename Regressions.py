@@ -1,20 +1,10 @@
 '''
     Regressions Class
 '''
-
 import numpy as np
 from numpy import fft
 
 class Regressions:
-    def __init__(self, data):
-        # Separate Data Values
-        day =  data[0]
-        volume = data[1]
-        dayOpen = data[2]  
-        dayClose = data[3] 
-        dayHigh = data[4] 
-        dayLow = data[5]
-                
     def polyReg(day, dayPrice):
         '''
             Polynomial Regression of Daily Prices
